@@ -1019,7 +1019,7 @@ gateway:
   readinessProbe:
     httpGet:
       path: /
-      port: http-metrics
+      port: loki-gateway
     initialDelaySeconds: 15
     timeoutSeconds: 1
   nginxConfig:
